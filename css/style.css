@@ -1,0 +1,88 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+ .priloder{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+
+
+.priloder .priloder-ctn{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.priloder .priloder-ctn span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+    margin-right: 15px;
+    animation-name: bounch;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;
+}
+@keyframes bounch{
+    0%{
+        margin-top: 0;
+       
+    }
+    50%{
+      
+    }
+    100%{
+        margin-top: -70%;
+    }
+}
+
+
+ 
+.priloder .priloder-ctn span:nth-child(1){
+    background-color: red;
+}
+.priloder .priloder-ctn span:nth-child(2){
+    background-color: dodgerblue;
+    animation-delay: 0.25s;
+}
+.priloder .priloder-ctn span:nth-child(3){
+    background-color: yellowgreen;
+    animation-delay: 0.5s;
+}
+
+.priloder .priloder-ctn span:nth-child(4){
+    background-color: orange;
+    animation-delay: 0.75s;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
